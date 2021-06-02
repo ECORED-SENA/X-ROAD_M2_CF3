@@ -8,8 +8,7 @@
         .h3 1
       .h3 Escenario de Interoperabilidad
     
-    .titulo-segundo
-      .h4 Contexto
+    h4 Contexto
     
     .row.justify-content-center.mb-5
       .col-md-5.d-flex
@@ -26,10 +25,10 @@
           .bgAContenido.p-4
             h5  Departamento de tecnología
             p 
-            | Con base en lo anterior, una de las entidades, a quien llamaremos 
+            | En base en lo anterior, una de las entidades, a quien llamaremos 
             strong Departamento de Tecnología
             | , ha sido encargada de diseñar y construir un sistema de información que facilite el trámite de 
-            strong expedición de licencias de conducción.
+            strong expedición de licencias de conducción. 
             | Este sistema debe interactuar con sistemas de otros departamentos, obteniendo información, creando registros y completando los pasos estipulados por las autoridades, con el fin de otorgar una nueva licencia de conducción a un ciudadano.
     
     #t_1_1.titulo-segundo
@@ -49,7 +48,7 @@
         p.mb-4 
           | Este proceso involucra diversos actores que proveen y/o requieren información en un flujo definido, el cual está basado en el 
           a.fw-bold(href='https://www.simbogota.com.co/index.php/homepage/tramites/rdc-registro-distrital-de-conductores/licencia-de-conduccion/' target="_blank") trámite real
-          | , pero que en este escenario ha sido modificado para reducir la complejidad, tanto en el flujo de información, como en los componentes de software, y de esta manera, poder centrar los esfuerzos en el entendimiento y la implementación el ecosistema 
+          | , pero que en este escenario ha sido modificado para reducir la complejidad, tanto en el flujo de información, como en los componentes de software, y de esta manera, poder centrar los esfuerzos en el entendimiento y la implementación del ecosistema 
           strong X-Road.
 
     #t_1_2.titulo-segundo
@@ -66,7 +65,7 @@
           tr
             td Departamento de Tecnolog&iacute;a
             td tecnolog&iacute;a_si
-            td Obtener y crear registros para otorgar una nueva licencia a un ciudadano, a trav&eacute;s de X-Road
+            td Obtener y crear registros para otorgar una nueva licencia a un ciudadano, a trav&eacute;s de X-Road.
           tr
             td Departamento de Ciudadan&iacute;a
             td ciudadan&iacute;a_si

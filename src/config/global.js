@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Escenario básico de interoperabilidad.',
+    componenteFormativo: 'Escenario básico de interoperabilidad',
     descripcionCurso:
       'El aprendiz con la ejecución de este módulo estará en la capacidad de crear una solución de software que involucre un escenario común de interoperabilidad, mediante el uso de la plataforma X-Road en nivel avanzado, diseñando un escenario común de intercambio de información mediante el uso del ecosistema X-Road.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),

@@ -7,6 +7,9 @@
       .titulo-principal__numero
         .h3 2
       .h3 Escenario Básico de Interoperabilidad
+
+    figure.mb-5
+      img(src='@/assets/curso/img2_03.png', alt='Escenario Básico de Interoperabilidad')
     
     #t_2_1.titulo-segundo
       .h4 2.1 Actores
@@ -22,7 +25,7 @@
           tr
             td Departamento de Tecnolog&iacute;a
             td.bgPrimario tecnolog&iacute;a_si
-            td.bgPrimario Obtener y crear registros para otorgar una nueva licencia a un ciudadano, a trav&eacute;s de X-Road
+            td.bgPrimario Obtener y crear registros para otorgar una nueva licencia a un ciudadano, a trav&eacute;s de X-Road.
           tr
             td Departamento de Ciudadan&iacute;a
             td ciudadan&iacute;a_si
@@ -88,16 +91,17 @@
       .row.justify-content-center
         .col-lg-7.mb-4.mb-lg-0
           p.mb-4
-            | Recuerda que esta actividad la debes desarrollar con tu 
-            strong Equipo de trabajo. 
-            | Por favor descarga los cuatro (4) documentos que encontrarás al dar click en cada uno de los pasos del ejercicio:
+            strong Importante: 
+            |  esta actividad debe realizarse con el 
+            strong Equipo de trabajo 
+            | ya establecido. Para desarrollar la actividad se debe descargar los cuatro (4) documentos presentes en cada uno de los pasos del ejercicio.s
 
           p.mb-5
             strong Recurso importante: AWS Educate. 
-            | Por favor descarga la guía para activar los recursos:
+            | Para activar los recuros se debe descargar esta guía:
 
           .col-7   
-            a.anexo.btn-white(:href="obtenerLink('/downloads/2.3.Anexo-5.pdf')" target="_blank")
+            a.anexo.btn-white(:href="obtenerLink('/downloads/2.3.Anexo-1.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -115,7 +119,7 @@
           img(src='@/assets/curso/img2_04.svg', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones.p-3(x="26%" y="14%")
-        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-1.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-2.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -124,7 +128,7 @@
               | Descripción Detallada del Escenario.
 
       .tarjeta.color-acento-botones.p-3(x="77.5%" y="14%")
-        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-2.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-3.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -133,7 +137,7 @@
               | Guía de Implementación del escenario.
 
       .tarjeta.color-acento-botones.p-3(x="45%" y="76%")
-        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-3.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-4.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -142,7 +146,7 @@
               | Guía de Instalación de Docker.
       
       .tarjeta.color-acento-botones.p-3(x="86.2%" y="76%")
-        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-4.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/2.3.Anexo-5.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
