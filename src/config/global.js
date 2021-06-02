@@ -106,7 +106,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
-      centro: 'Dirección general',
+      centro: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -134,8 +134,7 @@ export default {
       {
         nombre: 'Vilma Lucia Perilla M.',
         cargo: 'Revisora y evaluadora metodológica',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
@@ -166,7 +165,7 @@ export default {
         cargo: 'Desarrollo front-end',
       },
       {
-        nombre: 'Nombre completo',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
       },
       {
