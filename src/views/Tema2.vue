@@ -94,11 +94,11 @@
             strong Importante: 
             |  esta actividad debe realizarse con el 
             strong Equipo de trabajo 
-            | ya establecido. Para desarrollar la actividad se debe descargar los cuatro (4) documentos presentes en cada uno de los pasos del ejercicio.s
+            | ya establecido. Para desarrollar la actividad se debe descargar los cuatro (4) documentos presentes en cada uno de los pasos del ejercicio.
 
           p.mb-5
             strong Recurso importante: AWS Educate. 
-            | Para activar los recuros se debe descargar esta guía:
+            | Para activar los recursos se debe descargar esta guía:
 
           .col-7   
             a.anexo.btn-white(:href="obtenerLink('/downloads/2.3.Anexo-1.pdf')" target="_blank")
